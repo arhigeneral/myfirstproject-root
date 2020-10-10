@@ -6,3 +6,6 @@ def home(request):
 
 def hello(request):
     return HttpResponse('Bye my little friend!')
+
+def reverce(request):
+    return render(request, 'reverce.html')
